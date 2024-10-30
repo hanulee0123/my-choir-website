@@ -20,7 +20,7 @@ export default function ChoirHomepage() {
             <ul className="flex space-x-4">
               <li><Link href="#about" className="hover:underline">概要</Link></li>
               <li><Link href="#events" className="hover:underline">イベント</Link></li>
-              <li><Link href="#join" className="hover:underline">入団案内</Link></li>
+              <li><Link href="/join" className="hover:underline">入団案内</Link></li>
               <li><Link href="/conductor" className="hover:underline">指揮者紹介</Link></li>
               <li><Link href="#contact" className="hover:underline">お問い合わせ</Link></li>
             </ul>
@@ -94,7 +94,7 @@ export default function ChoirHomepage() {
             <h2 className="text-3xl font-bold mb-8">団員募集中</h2>
             <p className="text-xl mb-8">合唱指導の練習をしたい方から、合唱が大好きな方まで、合唱に対する熱い想いがある方を募集しています！</p>
             <Button size="lg" asChild>
-              <Link href="#join">入団案内を見る</Link>
+              <Link href="/join">入団案内を見る</Link>
             </Button>
           </div>
         </section>
