@@ -21,6 +21,7 @@ export default function ChoirHomepage() {
               <li><Link href="#about" className="hover:underline">概要</Link></li>
               <li><Link href="#events" className="hover:underline">イベント</Link></li>
               <li><Link href="#join" className="hover:underline">入団案内</Link></li>
+              <li><Link href="/conductor" className="hover:underline">指揮者紹介</Link></li>
               <li><Link href="#contact" className="hover:underline">お問い合わせ</Link></li>
             </ul>
           </nav>
