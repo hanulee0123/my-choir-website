@@ -18,11 +18,11 @@ export default function ChoirHomepage() {
           <h1 className="text-2xl font-bold">{choirName}</h1>
           <nav>
             <ul className="flex space-x-4">
-              <li><Link href="#about" className="hover:underline">概要</Link></li>
-              <li><Link href="#events" className="hover:underline">イベント</Link></li>
+              <li><Link href="/about" className="hover:underline">概要</Link></li>
+              <li><Link href="/events" className="hover:underline">イベント</Link></li>
               <li><Link href="/join" className="hover:underline">入団案内</Link></li>
               <li><Link href="/conductor" className="hover:underline">指揮者紹介</Link></li>
-              <li><Link href="#contact" className="hover:underline">お問い合わせ</Link></li>
+              <li><Link href="/contact" className="hover:underline">お問い合わせ</Link></li>
             </ul>
           </nav>
         </div>
@@ -49,7 +49,7 @@ export default function ChoirHomepage() {
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">九州の歌声を世界へ</h2>
               <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-3xl">私たちと一緒に素晴らしい音楽の旅に出かけましょう</p>
               <Button size="lg" asChild>
-                <Link href="#about">詳しく見る</Link>
+                <Link href="/about">詳しく見る</Link>
               </Button>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function ChoirHomepage() {
                   <p className="text-gray-600 mb-4">日時: 2024年{index + 5}月1日</p>
                   <p className="text-gray-600 mb-4">場所: 大分市民ホール</p>
                   <Button variant="outline" asChild>
-                    <Link href="#events">詳細を見る</Link>
+                    <Link href="/events">詳細を見る</Link>
                   </Button>
                 </div>
               ))}
